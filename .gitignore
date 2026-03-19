@@ -1,0 +1,56 @@
+# Data files (large, not needed in git)
+*.csv
+!requirements.txt
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+app.log
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Archives
+*.zip
+archive/
+archive2/
