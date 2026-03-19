@@ -35,8 +35,8 @@ logger = logging.getLogger(__name__)
 
 # Google Drive direct download links (used when local CSVs are missing)
 GDRIVE_DOWNLOAD_URLS = {
-    "tmdb_5000_movies.csv": "https://drive.google.com/uc?export=download&id=12y_r9SWWf3Z9YLeaag9_Fk4O_aCLcs4M",
-    "tmdb_5000_credits.csv": "https://drive.google.com/uc?export=download&id=1qUkFoqfCsD6RKkqMzbtF2gLNV3tufIwo"
+    "tmdb_5000_credits.csv": "https://drive.google.com/uc?export=download&id=12y_r9SWWf3Z9YLeaag9_Fk4O_aCLcs4M",
+    "tmdb_5000_movies.csv": "https://drive.google.com/uc?export=download&id=1qUkFoqfCsD6RKkqMzbtF2gLNV3tufIwo"
 }
 
 def download_file(url: str, dest_path: str) -> bool:
